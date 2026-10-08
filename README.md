@@ -207,7 +207,7 @@ docker run -it --gpus all --net host yolo_ros
 
 ```bash
 mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
-git clone https://github.com/Roka-jsj/object_detection.git
+git clone https://github.com/tokengeoji/object_detection.git
 
 cd ~/ros2_ws
 rosdep install --from-paths src --ignore-src -r -y
